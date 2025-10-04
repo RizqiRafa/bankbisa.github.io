@@ -21,7 +21,7 @@ loginForm.addEventListener("submit", function(e) {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  if (username === "gacor" && password === "mantap") {
+  if (username === "masuk" && password === "silakan") {
     // kalau benar masuk ke home.html
     window.location.href = "h2.html"; 
   } else {
